@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue des Plats</title>
+    <link rel="stylesheet" href="/static/catalogue.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Notre Catalogue de Plats</h1>
+        <div class="search-container">
+          <form id="searchForm" action="/api/recherche" method="GET">
+            <input type="text" id="searchInput" name="recherché" placeholder="Chercher les détails d'un plat">
+            <button >rechercher</button>
+          </form>
+        </div>
+    </div>
+    
+    <div class="catalogue">
+        <div class="plats-grid">
+            <div class="plat-item" data-name="steak de bœuf">
+                <img src="/static/src/BeefSteak.jpeg" alt="Steak de bœuf" class="plat-image">
+                <div class="plat-nom">Steak de bœuf</div>
+            </div>
+            
+            <div class="plat-item" data-name="briouates">
+                <img src="/static/src/Briwat.jpeg" alt="Briouates" class="plat-image">
+                <div class="plat-nom">Briouates</div>
+            </div>
+            
+            <div class="plat-item" data-name="salade césar">
+                <img src="/static/src/CeasarSalad.jpg" alt="Salade César" class="plat-image">
+                <div class="plat-nom">Salade César</div>
+            </div>
+            
+            <div class="plat-item" data-name="tagine de poulet">
+                <img src="/static/src/chickentagine.jpg" alt="Tagine de poulet" class="plat-image">
+                <div class="plat-nom">Tagine de poulet</div>
+            </div>
+            
+            <div class="plat-item" data-name="jawhara">
+                <img src="/static/src/jawhara.jpg" alt="Jawhara" class="plat-image">
+                <div class="plat-nom">Jawhara</div>
+            </div>
+            
+            <div class="plat-item" data-name="tagine de viande">
+                <img src="/static/src/MeatTagine.PNG" alt="Tagine de viande" class="plat-image">
+                <div class="plat-nom">Tagine de viande</div>
+            </div>
+            
+            <div class="plat-item" data-name="rfissa spécialités">
+                <img src="/static/src/RFISSASPECIALS.jpg" alt="RFISSA Spécialités" class="plat-image">
+                <div class="plat-nom">RFISSA Spécialités</div>
+            </div>
+            
+            <div class="plat-item" data-name="salade caprese">
+                <img src="/static/src/SaladeCaprese.jpg" alt="Salade Caprese" class="plat-image">
+                <div class="plat-nom">Salade Caprese</div>
+            </div>
+            
+            <div class="plat-item" data-name="tanjia">
+                <img src="/static/src/tanjia.jpg" alt="Tanjia" class="plat-image">
+                <div class="plat-nom">Tanjia</div>
+            </div>
+            
+            <div class="plat-item" data-name="zaalouk">
+                <img src="/static/src/zaalouk.jpg" alt="Zaalouk" class="plat-image">
+                <div class="plat-nom">Zaalouk</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

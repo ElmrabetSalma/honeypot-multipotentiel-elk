@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite and Delight - Plats Gourmets Marocains</title>
+    <link rel="icon" href="/src/Bite&Delight.ico">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-header">
+                <img src="/static/src/Bite&Delight.ico" alt="Logo Bite and Delight" class="logo">
+                <h1>Bite and Delight</h1>
+            </div>
+            <p class="slogan">La saveur marocaine à votre porte</p>
+        </header>
+
+        <main class="main-content">
+            <section class="hero-section">
+                <div class="hero-text">
+                    <h2>Découvrez l'Authenticité Marocaine</h2>
+                    <p>Bite and Delight vous présente des plats gourmets, préparés avec des ingrédients frais et des recettes traditionnelles, pour une livraison rapide et efficace.</p>
+                    <p>Notre service est conçu pour les professionnels de la restauration et nos partenaires de livraison.</p>
+                    <p>Toutes les commandes sont passées et validées par téléphone après l'enregistrement dans notre système.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="/static/src/img.jpg" alt="Plats marocains" class="hero-img">
+                </div>
+            </section>
+            <section class="login-section">
+                <h2>Connexion</h2>
+                <p class="login-description">Connectez-vous pour accéder à notre catalogue complet</p>
+                <form id="loginForm"  action="/api/login" method="POST" class="login-form">
+                    <div class="form-group">
+                        <label for="username">Nom d'utilisateur:</label>
+                        <input type="text" id="username" name="username" required placeholder="Entrez votre nom d'utilisateur">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mot de passe:</label>
+                        <input type="password" id="password" name="password" required placeholder="Entrez votre mot de passe">
+                    </div>
+                    <button type="submit" class="login-btn">Se connecter</button>
+                </form>
+                <p class="note">Si vous n'êtes pas un partenaire, veuillez contacter notre service commercial.</p>
+            </section>
+
+            <section class="featured-plats">
+                <h2>Plats Populaires</h2>
+                <div class="plats-grid">
+                    <div class="plat-card">
+                        <img src="/static/src/MeatTagine.PNG" alt="Tagine de viande">
+                        <h3>Tagine de viande</h3>
+                        <p class="price">50dh</p>
+                    </div>
+                    <div class="plat-card">
+                        <img src="/static/src/Briwat.jpeg" alt="Briwat">
+                        <h3>Briwat</h3>
+                        <p class="price">30dh</p>
+                    </div>
+                    <div class="plat-card">
+                        <img src="/static/src/chickentagine.jpg" alt="Chicken Tagine">
+                        <h3>Chicken Tagine</h3>
+                        <p class="price">55dh</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <p>&copy; 2025 Bite and Delight - Tous droits réservés</p>
+            <p>contact@biteanddelight.ma - +212 5XX XXX XXX</p>
+        </footer>
+    </div>
+</body>
+</html>

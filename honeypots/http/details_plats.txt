@@ -1,0 +1,84 @@
+NOM: Steak de bœuf
+DESCRIPTION: Steak de bœuf Angus grillé à la perfection, accompagné de frites maison et sauce au choix (béarnaise, poivre, roquefort)
+PRIX: 50 dh
+INGRÉDIENTS: Bœuf Angus, frites, salade verte, sauce maison
+TEMPS DE PRÉPARATION: 15 min
+CATÉGORIE: Viande
+==================================================
+
+NOM: Briouates
+DESCRIPTION: Feuilles de brick farcies à la viande hachée épicée et aux amandes, frites à l'huile d'olive, servies avec un coulis de tomate
+PRIX: 30 dh
+INGRÉDIENTS: Feuilles de brick, viande hachée, amandes, épices marocaines, persil
+TEMPS DE PRÉPARATION: 25 min
+CATÉGORIE: Entrée
+==================================================
+
+NOM: Salade César
+DESCRIPTION: Laitue romaine fraîche, croûtons à l'ail, parmesan shavé et sauce césar maison
+PRIX: 35 dh
+INGRÉDIENTS: Laitue romaine, croûtons, parmesan, sauce césar, filets de poulet grillé
+TEMPS DE PRÉPARATION: 10 min
+CATÉGORIE: Salade
+==================================================
+
+NOM: Tagine de poulet
+DESCRIPTION: Poulet mijoté avec olives vertes, citron confit et épices marocaines, cuit lentement dans un tagine en terre cuite
+PRIX: 55 dh
+INGRÉDIENTS: Poulet fermier, olives vertes, citron confit, oignons, safran, gingembre
+TEMPS DE PRÉPARATION: 45 min
+CATÉGORIE: Tagine
+==================================================
+
+NOM: Jawhara
+DESCRIPTION: Dessert raffiné aux amandes, miel d'oranger et feuille de brick, saupoudré de sucre glace et cannelle
+PRIX: 25 dh
+INGRÉDIENTS: Amandes, miel, feuille de brick, eau de fleur d'oranger, cannelle
+TEMPS DE PRÉPARATION: 20 min
+CATÉGORIE: Dessert
+==================================================
+
+NOM: Tagine de viande
+DESCRIPTION: Viande d'agneau tendre mijotée avec pruneaux, amandes et épices douces, servi avec des amendes grillées
+PRIX: 60 dh
+INGRÉDIENTS: Agneau, pruneaux, amandes, oignons, cannelle, curcuma
+TEMPS DE PRÉPARATION: 50 min
+CATÉGORIE: Tagine
+==================================================
+
+NOM: RFISSA Spécialités
+DESCRIPTION: Plat traditionnel marocain à base de msemen, poulet aux lentilles et épices parfumées, saupoudré de fenugrec
+PRIX: 65 dh
+INGRÉDIENTS: Msemen, poulet, lentilles, fenugrec, oignons, épices ras el hanout
+TEMPS DE PRÉPARATION: 60 min
+CATÉGORIE: Plat traditionnel
+==================================================
+
+NOM: Salade Caprese
+DESCRIPTION: Tomates fraîches, mozzarella di bufala, basilic frais et huile d'olive extra vierge
+PRIX: 40 dh
+INGRÉDIENTS: Tomates, mozzarella di bufala, basilic frais, huile d'olive, sel de mer
+TEMPS DE PRÉPARATION: 8 min
+CATÉGORIE: Salade
+==================================================
+
+NOM: Tanjia
+DESCRIPTION: Spécialité marrakchie à base de viande de bœuf, épices marocaines et citron confit, cuite lentement dans un pot en terre
+PRIX: 70 dh
+INGRÉDIENTS: Bœuf, ail, cumin, paprika, safran, citron confit, beurre smen
+TEMPS DE PRÉPARATION: 4 heures
+CATÉGORIE: Spécialité
+==================================================
+
+NOM: Zaalouk
+DESCRIPTION: Caviar d'aubergines grillées avec tomates fraîches, ail et épices, servi en entrée avec du pain marocain
+PRIX: 20 dh
+INGRÉDIENTS: Aubergines, tomates, ail, cumin, paprika, huile d'olive, persil
+TEMPS DE PRÉPARATION: 30 min
+CATÉGORIE: Entrée
+==================================================
+
+RESTAURANT: Bite and Delight
+DESCRIPTION RESTAURANT: Restaurant de cuisine marocaine authentique et plats gourmets
+HORAIRE: 11h00 - 23h00
+CONTACT: +212 5XX XXX XXX

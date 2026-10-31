@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.catalogue {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: orange;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+#searchInput {
+    padding: 10px 15px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    width: 250px;
+    outline: none;
+}
+
+#searchInput::placeholder {
+    color: #ccc;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #ff8c00;
+}
+
+.plats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.plat-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.plat-item:hover {
+    transform: translateY(-5px);
+}
+
+.plat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.plat-nom {
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style pour la recherche */
+.plat-item.hidden {
+    display: none;
+}
+
+.plat-item.highlight {
+    border: 3px solid orange;
+    box-shadow: 0 0 15px orange;
+}

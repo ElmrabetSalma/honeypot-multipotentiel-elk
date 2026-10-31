@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+http_logs/
+ssh_logs/
+ftp_logs/
+resultat.txt
+*.key
+config/credentials.json
+config/http_config.json
+strace_output.txt
+honeypots/passwords.txt
+honeypots/http_syscall.txt
+dependances.txt
+filtre.py
+*.pub
