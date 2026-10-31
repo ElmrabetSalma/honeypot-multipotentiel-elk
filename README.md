@@ -116,4 +116,4 @@ Ce projet est <b>strictement éducatif</b>. Les honeypots sont conçus pour êtr
 
 <h2> Auteures</h2>
 
-<b>Salma Elmarabet</b> & <b>Aroua Mimouh</b> — Élèves ingénieures en cybersécurité (ENSA Fès) <br>
+<b>Salma Elmarabet : élèves ingénieures en cybersécurité (ENSA Fès) <br>
